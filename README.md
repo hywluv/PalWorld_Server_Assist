@@ -6,6 +6,16 @@ Scripts for Auto management of PalWorld Linux Server.
 
 用于个人《幻兽帕鲁》Linux 服务器的管理脚本，包含自动备份、启动、重启、恢复备份等功能。
 
+## Structure
+
+```text
+├── Readme.md                   // 说明文档
+├── AutoSaved                   // 存档文件夹
+│   └── readme.txt              // 说明文档
+├── Pal_assist.sh               // 主要脚本
+└── ARRCON                      // RCON 程序
+```
+
 ## Usage
 
 You can use the script by running `./PalWorld.sh [start|stop|restart|save|reload <Saved_${date}_${time}.tar.gz>]`
@@ -30,6 +40,7 @@ crontab -e
 
 ## 关于作者
 
+`ARRCON` 仓库: [radj307/ARRCON](https://github.com/radj307/ARRCON)
 有任何建议欢迎提交 PR 和 Issue , 也可以通过以下方式联系我：
 
 * [邮箱](mailto:2271089251@qq.com)
